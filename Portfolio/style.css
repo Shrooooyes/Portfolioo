@@ -71,8 +71,9 @@ html {
 
 .content {
   font-weight: bolder;
-  margin-top: 20%;
+  margin-top: 35vh;
   margin-left: 10%;
+  width: 90%;
 }
 
 .orange {
@@ -97,23 +98,23 @@ html {
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-  display: flex;
+  width: 90vh;
+  display: flex; 
   justify-content: space-evenly;
 
-  height: 2.5em;
+  height: 4em;
   background-color: rgb(255, 68, 0);
   border-radius: 20px;
 }
 
 .items a {
-  margin: 0.1em;
-  height: 2.3em;
+  margin: 0; 
   width: 7%;
 }
 
 .fa-solid {
-  margin: 0.7em;
+  font-size: 2em;
+  margin: 0.5em;
   color: whitesmoke;
   cursor: pointer;
   transition: all ease 0.2s;
@@ -124,7 +125,7 @@ html {
 }
 
 .items .fa-solid:hover {
-  font-size: 150%;
+  font-size: 2.3em;
   margin: 0.3em;
 }
 
@@ -140,9 +141,7 @@ html {
 
 /* About Me */
 .aboutme {
-  position: relative;
   z-index: 3;
-  height: 100vh;
 }
 
 .myImg {
@@ -150,7 +149,7 @@ html {
   border-top: 2px solid rgb(255, 68, 0);
   border-right: 2px solid rgb(255, 68, 0);
   &::before {
-    height: 60vh;
+    height: 55vh;
     position: absolute;
     background: transparent;
     border-right: 2px solid white;
@@ -158,9 +157,6 @@ html {
     width: calc(32vh + 37px);
     content: "";
     top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     z-index: -1;
     transition: transform 150ms ease;
     cursor: pointer;
@@ -179,9 +175,9 @@ html {
 }
 
 .title {
-  top: 10vh;
+  top: -19vh; 
   position: absolute;
-  width: 40%;
+  width: 50%;
   text-align: center;
   font-weight: bolder;
 }
@@ -198,8 +194,6 @@ html {
 }
 
 .mySec {
-  position: relative;
-  top: 30vh;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -291,7 +285,7 @@ html {
   margin-top: 2%;
   display: flex;
   width: fit-content;
-  column-gap: 8%;
+  column-gap: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -324,6 +318,10 @@ html {
   text-decoration: underline;
 }
 
+.skl .lang {
+   display: block;
+}
+
 .lang img {
   background-color: whitesmoke;
   padding: 10px;
@@ -331,21 +329,17 @@ html {
   border: 2px solid rgb(255, 68, 0);
 }
 
-.pgmskl {
-  width: 69%;
-}
-
 /* Projects */
 .projects{
-  margin-bottom: 10%;
+  margin-bottom: 10%; 
 }
 
 .proj_title {
-  position: relative;
+ top: -15vh;
 }
 
 .container {
-  margin-top: 10%;
+  margin-top: 15%;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -367,6 +361,10 @@ html {
   color: rgb(255, 68, 0);
   font-size: .9em;
   padding-left: 10%;
+}
+
+.abt a {
+  font-size: 10px;  
 }
 
 .abt li::marker {
